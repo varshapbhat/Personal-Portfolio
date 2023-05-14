@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/d675109b39.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <!--<img src="Varsha-Pictures/Varsha.jpg" class="Varsha"> -->
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-square-xmark"  onclick="closemenu()"></i> 
+                    </ul>
+                    <i class="fa-solid fa-bars"  onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Learner</p>
+                    <h1>Hi, I am <span>Varsha</span><br> from Mangalore.</h1>
+                </div>
+
+            </div>
+
+        </div>
+<!------------------About---------------------> 
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="Varsha-Pictures/ooto ai.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p class="proxy-span"><br><br><br> Hi , <br> <span>I am Varsha ,</span>  Pretty depressed girl like this picture on the left , still I enjoy my life this way . I like sleeping and eating soooo much that I do that 24*7 ;) . OK thaks for reading my nonsense . byee. </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link"  onclick="opentab('Skills')"><br><br><br>Skills</p>
+                            <p class="tab-links"  onclick="opentab('Experience')"><br><br><br>Experience</p>
+                            <p class="tab-links"  onclick="opentab('Education')"><br><br><br>Education</p>
+                        </div>
+                        <div class="tab-contents  active-tab"  id="Skills">
+                            <ul>
+                                <li><br><span>Languages</span><br>Java<br>C<br>C++<br>HTML<br>CSS<br>JS</li>
+                                <li><span>OS</span><br>Linux<br>Windows</li>
+                                
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><br><span>2021 November - 2023 April</span><br><br> Support Executive At Tata Consultancy Services</li>
+                                
+                                
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents"  id="Education">
+                            <ul>
+                                <li><br><span>2017 - 2021</span><br>Sahyadri College of Engineering & Management</li>
+                                <li><br><span>2015 - 2017</span><br>St. Agnes PU College</li>
+                                <li><br><span>2012 - 2015</span><br>St. Agnes Girls High School</li>
+                                
+                            </ul>
+                        </div>
+                   
+                    </div>
+                </div>
+                <a href="#"  class="button">Goto Home</a>
+            </div>
+        </div>
+
+
+<!-----------Services---------------->
+       <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <img src="Varsha-Pictures/Custom C logo lettering for CRU Kafe.jpg" > 
+                    <h2>C Language</h2>
+                    <p><br>
+                        C is a general-purpose programming language which is very popular , despite being old.<br>
+                        If you know C, you will have no problem learning other popular programming languages.<br>
+                        C is very versatile , it can be used in both applications and technologies.<br></p>
+                        <a href="https://www.w3schools.com/c/c_intro.php">Learn more</a>
+                </div>
+
+                <div>
+                    <img src="Varsha-Pictures/C++ Logo - PNG Logo Vector Downloads (SVG, EPS).png" > 
+                    <h2>C++ Language</h2>
+                    <p><br>C++ is a cross-platform language that can be used to create high-performance applications.<br>
+                        C++ gives programmers a high level of control over system resources and memory.<br>
+                        C++ is an object-oriented programming language which gives a clear structure to programs and allows code to be reused, lowering development costs.
+                    <br> C++ is also Portable.</p>
+                        <a href="https://www.w3schools.com/cpp/cpp_intro.asp">Learn more</a>
+                </div>
+
+                <div>
+                    <img src="Varsha-Pictures/All Java Logos.jpg"> 
+                    <h2>Java Language</h2>
+                    <p><br>Java is one of the most popular programming language in the world and
+                        it has a large demand in the current job market.<br>
+                        Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs.<br>
+                        It is open-source , free , secure, fast and powerful.<br>
+                        It is used for: <br>
+                        <span>Mobile applications (specially Android apps)</span><br>
+                        <span>Desktop applications</span><br>
+                        <span>Web applications</span><br>
+                        and much more!!!
+                    </p>
+                        <a href="https://www.w3schools.com/java/java_intro.asp">Learn more</a>
+                </div>
+
+            
+                <div>
+                    <img src="Varsha-Pictures/linux.jpg" > 
+                    <h2>Linux</h2>
+                    <p><br>
+                        Linux® is an open source operating system (OS). An operating system is the software that directly manages a system's hardware and resources, like CPU, memory, and storage. The OS sits between applications and hardware and makes the connections between all of your software and the physical resources that do the work.</p>
+                        <a href="https://www.geeksforgeeks.org/introduction-to-linux-operating-system/">Learn more</a>
+                </div>
+
+                <div>
+                    <img src="Varsha-Pictures/Windows XP Logo.jpg" > 
+                    <h2>Windows</h2>
+                    <p><br>CWindows is a graphical operating system developed by Microsoft. It allows users to view and store files, run the software, play games, watch videos, and provides a way to connect to the internet. It was released for both home computing and professional works.</p>
+                        <a href="https://www.geeksforgeeks.org/introduction-of-window-xp-vista/">Learn more</a>
+                </div>
+
+                <div>
+                    <img src="Varsha-Pictures/HTML.png"> 
+                    <h2>HTML</h2>
+                    <p><br>HTML stands for Hyper Text Markup Language .
+                        It is the standard markup language for creating Web pages and It
+                         describes the structure of a Web page .
+                        HTML elements tell the browser how to display the content .
+                    </p>
+                        <a href="https://www.w3schools.com/html/html_intro.asp">Learn more</a>
+                
+            </div>
+
+            <div>
+                <img src="Varsha-Pictures/css.png"> 
+                <h2>CSS</h2>
+                <p><br>CSS stands for Cascading Style Sheets .
+                    It describes how HTML elements are to be displayed on screen, paper, or in other media.
+                    CSS saves a lot of work. It can control the layout of multiple web pages all at once .
+                    External stylesheets are stored in CSS files.
+                </p>
+                    <a href="https://www.w3schools.com/css/css_intro.asp">Learn more</a>
+            
+        </div>
+
+            <div>
+                <img src="Varsha-Pictures/JS Logo - Javascript SDK - PNG Logo Vector Downloads (SVG, EPS).png"> 
+                <h2>Java Script</h2>
+                <p><br>JavaScript is a cross-platform, object-oriented scripting language used to make webpages interactive (e.g., having complex animations, clickable buttons, popup menus, etc.). There are also more advanced server side versions of JavaScript such as Node.
+                </p>
+                    <a href="https://www.w3schools.com/js/">Learn more</a>
+            
+           </div>
+
+
+            </div>
+            <a href="#"  class="button">Goto Home</a>
+        </div>
+
+
+       </div>
+
+
+<!------------------------------Portfolio----------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+                <div class="work">
+                    <img src="Varsha-Pictures/work1.jpg">
+                    <div class="layer">
+                        <h3>Franime App</h3>
+                        <p>This app helps you to search for diferent types of Anime based on its jenre and provides title song and trailer of that anime.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="#"><i class="fa-solid fa-code-branch"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Varsha-Pictures/work3.jpg">
+                    <div class="layer">
+                        <h3>Online Course Management App</h3>
+                        <p>This app helps you to search for diferent types of courses and register to those courses if wanted.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="#"><i class="fa-solid fa-code-branch"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="Varsha-Pictures/work2.jpg">
+                    <div class="layer">
+                        <h3>My Personal Portfolio</h3>
+                        <p>This is my personal portfolio web page where I have given information about my works and my services.</p>
+                        <a href="http://127.0.0.1:5500/#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="#"><i class="fa-solid fa-code-branch"></i></a>
+                    </div>
+
+                </div>
+        </div>
+
+        <a href="#"  class="button">Goto Home</a>
+    </div>
+</div>
+
+
+<!----------------------contact------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left"> 
+                <h1 class="sub-title">Contact Me</h1>
+                
+                <p><i class="fa-solid fa-paper-plane"></i>varshapbhat16@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7349319968</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/varsha.pbhat"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/mikasa._.1999/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/varshapbhat16/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            
+            <!----<div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit">Submit</button>
+
+                </form>
+            </div> -->
+        </div>
+        <a href="Varsha-Pictures/varsha_resume.pdf" download class="btn">Download CV</a>
+    </div>
+</div>
+
+<div class="copyright">
+    <p>Copyright <i class="fa-solid fa-copyright"></i> Varsha Bhat . Made with efforts by Varsha Bhat <i class="fa-regular fa-face-smile-beam"> .</i></p>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+</script>
+
+
+
+    </body>
+</html>
